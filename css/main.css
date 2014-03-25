@@ -55,25 +55,6 @@ textarea {
     padding: 0.2em 0;
 }
 
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -255,12 +236,16 @@ h1, h2, h3{
 }
 .btn{
     font-family: 'nexa_lightregular';
-    background: #83cbe4;
-    color: #fff;
+    background: #fff;
+    color: #555;
     font-size: 20px;
     display: inline-block;
     padding: 5px 15px;
     text-decoration: none;
+}
+.btn:hover{
+    background: #83cbe4;
+    color: #fff;
 }
 
 /* ---- HEADER ---- */
@@ -269,6 +254,22 @@ header{
     overflow: hidden;
     position: relative;
     z-index: 5;
+}
+header .social{
+    margin-top: 0;
+}
+header .social li{
+    float: left;
+    margin-right: 20px;
+    list-style-type: none;
+}
+header .social li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+header .social li a:hover{
+    color: #83cbe4;
 }
 #logo{
     width: 40px;
