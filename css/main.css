@@ -224,12 +224,12 @@ body{
     line-height: 1.6;
     color: #555;
     font-family: helvetica, arial, sans-serif;
-    background: url(../images/hongkong.jpg) top left no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     margin: 0;
+    background: #333;
 }
 h1, h2, h3{
     font-family: 'nexa_lightregular';
@@ -254,6 +254,8 @@ header{
     overflow: hidden;
     position: relative;
     z-index: 5;
+    background: rgba(0,0,0,0.5);
+    overflow: hidden;
 }
 header .social{
     margin-top: 0;
@@ -288,20 +290,19 @@ header .social li a:hover{
     line-height: 1;
 }
 
-#main-wrap{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0,0,0,0.7);
+.slide{
+    background: url(../images/hongkong.jpg) top left no-repeat;
+    overflow: hidden;
+    position: relative;
     z-index: 1;
+}
+.slide-2{
+    background: #83cbe4;
 }
 .layer{
     font-family: 'nexa_lightregular';
     font-size: 35px;
     width: 60%;
-    margin: 200px auto;
     text-transform: uppercase;
     color: #fff;
     text-align: center;
@@ -309,6 +310,7 @@ header .social li a:hover{
     padding: 30px;
     position: relative;
     overflow: visible;
+    margin: 100px auto;
 }
 .particle{
     position: absolute;
@@ -321,4 +323,23 @@ header .social li a:hover{
     bottom: -54px;
     right: auto;
     left: -4px;
+}
+
+/* ---- PORTFOLIO ---- */
+
+.grid-3{
+    width: 80%;
+    margin: 100px auto;
+    list-style-type: none;
+}
+.grid-3 li{
+    width: 33%;
+    float: left;
+    height: 200px;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+.grid-3 li .inner{
+    background: #efefef;
+    height: 200px;
 }

@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="js/vendor/onepage/onepage-scroll.css">
         <link rel="stylesheet" href="css/main.css">
         
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -32,18 +33,42 @@
             </ul>
         </header>
         
-        <div id="main-wrap">
-            <div class="layer">
-                <img class="particle top" src="images/particle-top.gif" />
-                <img class="particle bottom" src="images/particle-bottom.gif" />
-                Hi I'm Chris, A Freelance Web Developer based in Hong Kong.<br>
-                <a class="btn" href="#">View Work</a>
-            </div>
+        <div id="outer-wrap">
+            <!-- Intro -->
+            <section class="slide slide-1 slide-intro">
+                <div class="layer">
+                    <img class="particle top" src="images/particle-top.gif" />
+                    <img class="particle bottom" src="images/particle-bottom.gif" />
+                    Hi I'm Chris, A Freelance Web Developer based in Hong Kong.<br>
+                    <a class="btn" href="#">View Work</a>
+                </div>
+            </section>
+            
+            <!-- Portfolio -->
+            <section class="slide slide-2 slide-portfolio">
+                <ul class="grid-3">
+                    <li><div class="inner"></div></li>
+                    <li><div class="inner"></div></li>
+                    <li><div class="inner"></div></li>
+                    <li><div class="inner"></div></li>
+                    <li><div class="inner"></div></li>
+                    <li><div class="inner"></div></li>
+                </ul>
+            </section>
+            <section class="slide slide-2">
+                <div class="layer">
+                    <img class="particle top" src="images/particle-top.gif" />
+                    <img class="particle bottom" src="images/particle-bottom.gif" />
+                    Hi I'm Chris, A Freelance Web Developer based in Hong Kong.<br>
+                    <a class="btn" href="#">View Work</a>
+                </div>
+            </section>
         </div>
+        
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
-        <script src="js/plugins.js"></script>
+        <script src="js/vendor/onepage/jquery.onepage-scroll.min.js"></script>
         <script src="js/main.js"></script>
 
         <script>
