@@ -229,7 +229,7 @@ body{
     -o-background-size: cover;
     background-size: cover;
     margin: 0;
-    background: #000;
+    background: #222;
 }
 h1, h2, h3{
     font-family: 'nexa_lightregular';
@@ -300,7 +300,10 @@ header .social li a:hover{
     background-size: cover;
 }
 .slide-2{
-    background: #83cbe4;
+    background: url(../images/blue-back.gif) bottom right no-repeat #83cbe4;
+}
+.slide-3{
+    background: #9fcc3b;
 }
 .layer{
     font-family: 'nexa_lightregular';
@@ -338,7 +341,8 @@ header .social li a:hover{
     text-transform: uppercase;
     text-align: center;
     position: relative;
-    top: 30px;
+    top: 40px;
+    font-size: 30px;
 }
 .portfolio{
     padding: 0;
@@ -346,7 +350,7 @@ header .social li a:hover{
 }
 .portfolio li{
     width: 100%;
-    padding: 30px 0;
+    padding: 30px 0 50px;
 }
 .portfolio .browser{
     width: 60%;
