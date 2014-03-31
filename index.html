@@ -36,7 +36,7 @@
         <div id="outer-wrap">
             <!-- Intro -->
             <section class="slide slide-1 slide-intro">
-                <div class="layer">
+                <div class="layer vert-align">
                     <img class="particle top" src="images/particle-top.gif" />
                     <img class="particle bottom" src="images/particle-bottom.gif" />
                     Hi I'm Chris, A Freelance Web Developer based in Hong Kong.<br>
@@ -46,25 +46,45 @@
             
             <!-- Portfolio -->
             <section class="slide slide-2 slide-portfolio">
-                <ul class="grid-3">
-                    <li><div class="inner">
+                <h1>My Work</h1>
+                <ul class="portfolio  vert-align" data-cycle-fx="scrollHorz">
+                    <li class="port-slide">
+                        <div class="browser">
+                            <img src="images/browser-top.png" />
                             <img src="images/work/fgi.jpg" alt="Fung Global Institute" />
-                        </div></li>
-                    <li><div class="inner">
-                                <img src="images/work/urban-properties.jpg" alt="Urban Properties" />
-                            </div></li>
-                            <li><div class="inner">
-                                    <img src="images/work/atria.jpg" alt="Atria" />
-                                </div></li>
-                                <li><div class="inner">
-                                        <img src="images/work/cantoneasy.jpg" alt="Cantoneasy" />
-                                </div></li>
-                                <li><div class="inner">
-                                        <img src="images/work/central-shorts.jpg" alt="Central Shorts" />
-                                    </div></li>
-                                    <li><div class="inner">
-                                        <img src="images/work/ctps.jpg" alt="CTPS" />
-                                        </div></li>
+                        </div>
+                    </li>
+                    <li class="port-slide">
+                        <div class="browser">
+                            <img src="images/browser-top.png" />
+                            <img src="images/work/urban-properties.jpg" alt="Urban Properties" />
+                        </div>
+                    </li>
+                    <li class="port-slide">
+                        <div class="browser">
+                            <img src="images/browser-top.png" />
+                            <img src="images/work/atria.jpg" alt="Atria" />
+                        </div>
+                    </li>
+                    <li class="port-slide">
+                        <div class="browser">
+                            <img src="images/browser-top.png" />
+                            <img src="images/work/cantoneasy.jpg" alt="Cantoneasy" />
+                        </div>
+                    </li>
+                    <li class="port-slide">
+                        <div class="browser">
+                            <img src="images/browser-top.png" />
+                            <img src="images/work/central-shorts.jpg" alt="Central Shorts" />
+                                    
+                        </div>
+                    </li>
+                    <li class="port-slide">
+                        <div class="browser">
+                            <img src="images/browser-top.png" />
+                            <img src="images/work/ctps.jpg" alt="CTPS" />          
+                        </div>
+                    </li>
                 </ul>
             </section>
             <section class="slide slide-2">
@@ -81,6 +101,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
         <script src="js/vendor/onepage/jquery.onepage-scroll.min.js"></script>
+        <script src="js/vendor/cycle2.js"></script>
         <script src="js/main.js"></script>
 
         <script>
